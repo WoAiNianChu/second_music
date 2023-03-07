@@ -43,7 +43,7 @@ jobs:
           ENCODED_KEYSTORE: ${{ secrets.KEYSTORE }}
 
 
-      - name: Collect Apks
+
       - run: flutter pub get
       # build Entity
       - run: flutter pub run build_runner build
